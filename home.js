@@ -2,13 +2,14 @@ console.log('working')
 
 const mealBtn =document.querySelector('#meal');
 
-const array = ["beans again!", "screw it let's buy McDonalds", "deez nuts"];
+const array = ["beans again!", "cooking is hard let's buy mcdonalds", "deez nuts"];
 
-const random = Math.floor(Math.random() * array.length);
-
+let random = Math.floor(Math.random() * array.length);
 
 const mealAlert = () => {
-    alert(array[random])
+    random = Math.floor(Math.random() * array.length);
+
+    alert(array[random]);
 };
 
-mealBtn.addEventListener('click', mealAlert)
+mealBtn.addEventListener('click', mealAlert);

@@ -8,7 +8,8 @@ body {
 }
 
 nav {
-	border-bottom: 2px solid orange;
+	position: fixed;
+	top: 0px;
 }
 
 ol {
@@ -50,11 +51,6 @@ h1 {
 	text-align: center;
 }
 
-#navBar {
-	position: sticky;
-
-}
-
 #profileTitle {
 	font-size: 32pt;
 	color: purple;
@@ -85,9 +81,5 @@ h1 {
 #formatPhoto {
 	font-size: 12pt;
 	text-align: right;
-	color: purple;
-}
-
-h2 {
 	color: purple;
 }

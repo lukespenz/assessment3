@@ -9,7 +9,7 @@ const colorAlert = () => {
 };
 
 const placeAlert = () => {
-    alert("Wherever you are that's where I want to be baby")
+    alert("Wherever you are that's where I want to be")
 };
 
 const ritualAlert = () => {
