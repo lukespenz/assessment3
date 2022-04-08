@@ -1,0 +1,93 @@
+body {
+  background: rgb(247, 110, 110);
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+h1 {
+	font-size: 20pt;
+	text-align: center;
+	color: purple;
+}
+
+.list {
+	font-size: 18pt;
+	font-weight: large;
+	color: purple;
+	text-align: center;
+}
+
+#navBar {
+	position: sticky;
+
+}
+
+#profileTitle {
+	font-size: 32pt;
+	color: purple;
+}
+
+.button {
+	font-size: 20pt;
+	background-color: yellow;
+}
+
+#car {
+	display: block;
+	position: relative;
+	left: 20%;
+}
+
+#ninjaDuckPhoto {
+	width: 20%;
+	height: auto;
+	display: block;
+	align-items: left;
+}
+
+.formatPhoto {
+	align: left;
+}
+
+#formatPhoto {
+	font-size: 12pt;
+	text-align: right;
+	color: purple;
+}
+
+h2 {
+	color: purple;
+}
